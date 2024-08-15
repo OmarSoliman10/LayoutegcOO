@@ -1,65 +1,57 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import LOGO from '../../src/img//LOGO.png';
 
 
 export default function Footer() {
   return (<>
-     {/* <footer className="bg-body-tertiary text-center  w-100">
-  <div className="container p-4 pb-0">
-    <section className="mb-4">
-      <Link
-      data-mdb-ripple-init
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor: '#3b5998'}}
-        role="button"
-        ><i className="fab fa-facebook-f"></i
-      ></Link>
 
-      <Link
-        data-mdb-ripple-init
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor: '#55acee'}}
-        role="button"
-        ><i className="fab fa-twitter"></i
-      ></Link>
+<footer className='text-white text-center bottom-0 end-0 start-0'>
 
-      <Link
-        data-mdb-ripple-init
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor: '#dd4b39'}}
-        role="button"
-        ><i className="fab fa-google"></i
-      ></Link>
+<div className='footer-end py-4 px-5'>
+<div className='container footer-end'>
+    <div className="row my-3 gy-1 justify-content-center align-items-center">
 
-      <Link
-        data-mdb-ripple-init
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor: '#ac2bac'}}
-        role="button"
-        ><i className="fab fa-instagram"></i
-      ></Link>
+    <div className="col-md-4 ">
+            <div className='w-75 m-auto'>
+              <img src={LOGO} className='w-100' alt="" />
+            </div>
+        </div>
 
-      <Link
-        data-mdb-ripple-init
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor: '#0082ca'}}
-        role="button"
-        ><i className="fab fa-linkedin-in"></i
-      ></Link>
-      <Link
-        data-mdb-ripple-init
-        className="btn text-white btn-floating m-1"
-        style={{backgroundColor: '#333333'}}
-        role="button"
-        ><i className="fab fa-github"></i
-      ></Link>
-    </section>
-  </div>
+        <div className="col-md-4 mt-4">
+            <h4>صـفـحــاتــــــــنــا</h4>
 
-  <div className="text-center p-3" style={{backgroundColor: 'rgba(0,, 0, 0.05)'}}>© 2020 Copyright:
-    <Link className="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</Link>
-  </div>
-</footer>  */}
+            <div className="mb-4 icons ">
+                <Link className="btn btn-outline-light btn-floating m-1" to="https://www.facebook.com/layoutagency1/" 
+                target="_blank" rel="noopener noreferrer" role="button">  
+                <i className="fa-brands fa-facebook-f"></i></Link>
+
+                <Link className="btn btn-outline-light btn-floating m-1" to="https://www.instagram.com/layout.agency1/" 
+                 target="_blank" rel="noopener noreferrer" role="button" >
+                <i className="fa-brands fa-instagram "></i></Link>
+
+                <Link className="btn btn-outline-light btn-floating m-1" to="https://www.linkedin.com/in/layout-agency-583500323/" 
+                 target="_blank" rel="noopener noreferrer" role="button">
+                <i className="fa-brands fa-linkedin-in"></i></Link>
+
+                <Link className="btn btn-outline-light btn-floating m-1" to="https://www.tiktok.com/@layoutagency1" 
+                 target="_blank" rel="noopener noreferrer" role="button">
+                <i className="fa-brands fa-tiktok"></i></Link>
+
+            </div>
+        </div>
+
+
+        <div className="col-md-4">
+            <h4 className='m-0'>Copyright © 2023 All rights reserved by Layoutegco</h4>
+        </div>
+
+
+    </div>
+</div>
+</div>
+</footer>
+
 </>
     )
   }
