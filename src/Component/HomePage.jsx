@@ -39,12 +39,12 @@ export default function HomePage() {
 
   return (<>
 {/* تحت navbar */}
-<header className="d-flex align-items-center">
+<header className="d-flex justify-content-center align-items-center">
       <div className="header-content text-white ps-4">
         <div className="social-container py-1 text-center">
           <motion.div
             className='m-auto'
-            style={{ width: "40%" }}
+            style={{ width: "40%" , height: "auto" }}
             ref={ref}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}

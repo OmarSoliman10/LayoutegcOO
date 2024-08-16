@@ -17,7 +17,6 @@ header{
     border-radius: 33px;
     background-color: transparent;
     color: #ccaf55;
-    text-align: center;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -28,6 +27,9 @@ header{
     background-color: #ccaf55;
     color: #ffffff;
   }
+
+
+  /* {/* تحت navbar */ 
   
     /*--------------------------------------------------------------
     # فريقنا

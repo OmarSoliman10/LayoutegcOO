@@ -154,11 +154,11 @@ export default function Contact() {
             <Col md={4} className="mb-4">
               <div
                 style={{ backgroundColor: '#243f3b', padding: '20px', borderRadius: '10px', border: '1px solid #0e776a' }}
-                onClick={() => window.location.href = 'tel:01205707478'}
+                onClick={() => window.location.href = 'tel:01033640271'}
               >
                 <FontAwesomeIcon icon={faPhone} size="2x" color="#ccaf55" />
                 <h4 className="mt-3" style={{ color: 'white' }}>الجوال</h4>
-                <p className='pointer fw-bolder mt-3' style={{ color: '#ccaf55' }}>01205707478</p>
+                <p className='pointer fw-bolder mt-3' style={{ color: '#ccaf55' }}>01033640271</p>
               </div>
             </Col>
             <Col md={4} className="mb-4">
